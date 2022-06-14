@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @create 2022-06-13 17:20
  */
 @Configuration
-@MapperScan("com.lege.mbg.mapper")
+@MapperScan({"com.lege.mbg.mapper","com.lege.dao"})
 public class MyBatisConfig {
 }
